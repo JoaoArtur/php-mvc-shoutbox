@@ -1,18 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : Rede local
-Source Server Version : 50717
-Source Host           : localhost:3306
-Source Database       : ja_shoutbox
-
-Target Server Type    : MYSQL
-Target Server Version : 50717
-File Encoding         : 65001
-
-Date: 2017-10-07 19:08:26
-*/
-
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `shoutbox`
@@ -55,5 +40,4 @@ CREATE TABLE `usuarios` (
 -- ----------------------------
 -- Records of usuarios
 -- ----------------------------
-INSERT INTO `usuarios` VALUES ('1', 'João Artur', 'joao', 'dccd96c256bc7dd39bae41a405f25e43');
-INSERT INTO `usuarios` VALUES ('2', 'ricardo silva', 'ricardo', '6720720054e9d24fbf6c20a831ff287e');
+INSERT INTO `usuarios` VALUES ('1', 'Administrador', 'admin', '21232f297a57a5a743894a0e4a801fc3');
